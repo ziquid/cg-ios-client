@@ -24,7 +24,7 @@
     self.CDCWebView.delegate = self;
     
     UIDevice *device = [UIDevice currentDevice];
-	self.uniqueIdentifier = [device uniqueIdentifier];
+	self.uniqueIdentifier = [[device identifierForVendor] UUIDString];
     
     NSString *deviceType = @"iPhone";
     
@@ -95,7 +95,7 @@
 	if (match10.location == 0) {
 		
 		NSLog(@"Let's go buy some Luck!");
-		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureAId];
+		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureAId forProduct:0];
 		return NO;
 		
 	}
@@ -105,7 +105,7 @@
 	if (match35.location == 0) {
 		
 		NSLog(@"Let's go buy some Luck!");
-		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureBId];
+		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureBId forProduct:1];
 		return NO;
 		
 	}
@@ -115,7 +115,7 @@
 	if (match150.location == 0) {
 		
 		NSLog(@"Let's go buy some Luck!");
-		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureCId];
+		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureCId forProduct:2];
 		return NO;
 		
 	}
@@ -125,7 +125,7 @@
 	if (match320.location == 0) {
 		
 		NSLog(@"Let's go buy some Luck!");
-		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureDId];
+		[[MKStoreManager sharedManager] buyFeature:kConsumableFeatureDId forProduct:3];
 		return NO;
 		
 	}
@@ -139,7 +139,7 @@
 			
 			// get our unique iPhone ID
 			UIDevice *device = [UIDevice currentDevice];
-			uniqueIdentifier = [device uniqueIdentifier];
+			uniqueIdentifier = [[device identifierForVendor] UUIDString];
 			
 			NSString *urlCore = @"http://codero1.cheek.com/celestial_glory/home/";
 			NSString *urlAddress = [urlCore stringByAppendingString:uniqueIdentifier];

@@ -62,7 +62,7 @@
 + (BOOL) isFeaturePurchased:(NSString*) featureId; 
 
 // these three are not static methods, since you have to initialize the store with your product ids before calling this function
-- (void) buyFeature:(NSString*) featureId;
+- (void) buyFeature:(NSString*) featureId forProduct:(int) productIndex;
 - (NSMutableArray*) purchasableObjectsDescription;
 - (void) restorePreviousTransactions;
 

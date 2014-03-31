@@ -114,6 +114,7 @@ static MKStoreManager* _sharedStoreManager;
 								  kConsumableFeatureAId,
 								  kConsumableFeatureBId,
 								  kConsumableFeatureCId,
+                                  kConsumableFeatureDId,
 								  nil]];
 	request.delegate = self;
 	[request start];
@@ -178,7 +179,7 @@ static MKStoreManager* _sharedStoreManager;
 }
 
 
-- (void) buyFeature:(NSString*) featureId
+- (void) buyFeature:(NSString*) featureId forProduct:(int) productIndex
 {
 	if([self canCurrentDeviceUseFeature: featureId])
 	{
@@ -195,7 +196,9 @@ static MKStoreManager* _sharedStoreManager;
 	
 	if ([SKPaymentQueue canMakePayments])
 	{
-		SKPayment *payment = [SKPayment paymentWithProductIdentifier:featureId];
+        SKProduct *product = [self.purchasableObjects objectAtIndex:productIndex];
+        
+		SKPayment *payment = [SKPayment paymentWithProduct:product];
 		[[SKPaymentQueue defaultQueue] addPayment:payment];
 	}
 	else
@@ -318,7 +321,7 @@ static MKStoreManager* _sharedStoreManager;
 {
     return NO; // jwc 25Sep2012 -- no review promo codes
     
-	NSString *uniqueID = [[UIDevice currentDevice] uniqueIdentifier];
+	NSString *uniqueID = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 	// check udid and featureid with developer's server
 	
 	if(ownServer == nil) return NO; // sanity check
@@ -365,7 +368,7 @@ static MKStoreManager* _sharedStoreManager;
 	if(ownServer == nil) return NO; // sanity check
 	
 	UIDevice *device = [UIDevice currentDevice];
-	NSString *uniqueIdentifier = [device uniqueIdentifier];
+	NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
 
 	NSString *receiptDataString = [[NSString alloc] initWithData:receiptData encoding:NSASCIIStringEncoding];
 	NSLog(@"receipt data: %@", receiptDataString);
@@ -414,7 +417,7 @@ static MKStoreManager* _sharedStoreManager;
 	if(ownServer == nil) return NO; // sanity check
 	
 	UIDevice *device = [UIDevice currentDevice];
-	NSString *uniqueIdentifier = [device uniqueIdentifier];
+	NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
 	
 	NSLog(@"product id: %@", productIdentifier);
     
