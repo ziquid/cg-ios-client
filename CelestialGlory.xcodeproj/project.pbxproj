@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CDCAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7C03CA3C1648420400FE7424 /* CDCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C03CA3B1648420400FE7424 /* CDCWebViewController.m */; };
+		7C03CADE1649CC9900FE7424 /* CDCStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CADD1649CC9900FE7424 /* CDCStoryboard.storyboard */; };
+		7C03CAE3164AE6C600FE7424 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CAE1164AE6C600FE7424 /* Icon.png */; };
+		7C03CAE4164AE6C600FE7424 /* celestial_glory_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CAE2164AE6C600FE7424 /* celestial_glory_72.png */; };
+		7C03CAE6164AE79200FE7424 /* celestial_glory_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CAE5164AE79200FE7424 /* celestial_glory_144.png */; };
+		7C03CAE8164AE8F400FE7424 /* celestial_glory_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CAE7164AE8F400FE7424 /* celestial_glory_57.png */; };
+		7C03CAEA164B29D400FE7424 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03CAE9164B29D400FE7424 /* Default-Portrait~ipad.png */; };
+		7C03CAEB164B2A0B00FE7424 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EB11D16122FA2000E3699 /* Default.png */; };
+		7C03CAEC164B2A0F00FE7424 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EB11F16123074000E3699 /* Default@2x.png */; };
+		7C22487614493AEC008107A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C22487514493AEC008107A2 /* CoreGraphics.framework */; };
+		7C2EB11C16122D2D000E3699 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EB11B16122D2D000E3699 /* Icon@2x.png */; };
+		7C2EB122161231B2000E3699 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EB121161231B2000E3699 /* Default-568h@2x.png */; };
+		7C38553812EE25F70008B628 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38553712EE25F70008B628 /* StoreKit.framework */; };
+		7C423BF012EE5FC600EBC96D /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423BED12EE5FC600EBC96D /* MKStoreManager.m */; };
+		7C423BF112EE5FC600EBC96D /* MKStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C423BEF12EE5FC600EBC96D /* MKStoreObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CDCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CDCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CelestialGlory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelestialGlory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C03CA3A1648420400FE7424 /* CDCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCWebViewController.h; sourceTree = "<group>"; };
+		7C03CA3B1648420400FE7424 /* CDCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCWebViewController.m; sourceTree = "<group>"; };
+		7C03CADD1649CC9900FE7424 /* CDCStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CDCStoryboard.storyboard; sourceTree = "<group>"; };
+		7C03CAE1164AE6C600FE7424 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7C03CAE2164AE6C600FE7424 /* celestial_glory_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celestial_glory_72.png; sourceTree = "<group>"; };
+		7C03CAE5164AE79200FE7424 /* celestial_glory_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celestial_glory_144.png; sourceTree = "<group>"; };
+		7C03CAE7164AE8F400FE7424 /* celestial_glory_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celestial_glory_57.png; sourceTree = "<group>"; };
+		7C03CAE9164B29D400FE7424 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		7C0F004E1508809600BAB397 /* CelestialGlory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelestialGlory_Prefix.pch; sourceTree = "<group>"; };
+		7C22487514493AEC008107A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C2EB11B16122D2D000E3699 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7C2EB11D16122FA2000E3699 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7C2EB11F16123074000E3699 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7C2EB121161231B2000E3699 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C38553712EE25F70008B628 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7C423BEC12EE5FC600EBC96D /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		7C423BED12EE5FC600EBC96D /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		7C423BEE12EE5FC600EBC96D /* MKStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreObserver.h; sourceTree = "<group>"; };
+		7C423BEF12EE5FC600EBC96D /* MKStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreObserver.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				7C38553812EE25F70008B628 /* StoreKit.framework in Frameworks */,
+				7C22487614493AEC008107A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C423BEC12EE5FC600EBC96D /* MKStoreManager.h */,
+				7C423BED12EE5FC600EBC96D /* MKStoreManager.m */,
+				7C423BEE12EE5FC600EBC96D /* MKStoreObserver.h */,
+				7C423BEF12EE5FC600EBC96D /* MKStoreObserver.m */,
+				1D3623240D0F684500981E51 /* CDCAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CDCAppDelegate.m */,
+				7C03CA3A1648420400FE7424 /* CDCWebViewController.h */,
+				7C03CA3B1648420400FE7424 /* CDCWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CelestialGlory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7C03CAE9164B29D400FE7424 /* Default-Portrait~ipad.png */,
+				7C03CADD1649CC9900FE7424 /* CDCStoryboard.storyboard */,
+				7C2EB121161231B2000E3699 /* Default-568h@2x.png */,
+				7C2EB11F16123074000E3699 /* Default@2x.png */,
+				7C2EB11D16122FA2000E3699 /* Default.png */,
+				7C2EB11B16122D2D000E3699 /* Icon@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				7CDDF8C91465F2F40071750A /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7C0F004E1508809600BAB397 /* CelestialGlory_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C03CAE7164AE8F400FE7424 /* celestial_glory_57.png */,
+				7C03CAE1164AE6C600FE7424 /* Icon.png */,
+				7C03CAE5164AE79200FE7424 /* celestial_glory_144.png */,
+				7C03CAE2164AE6C600FE7424 /* celestial_glory_72.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C22487514493AEC008107A2 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				7C38553712EE25F70008B628 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CDDF8C91465F2F40071750A /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CelestialGlory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CelestialGlory" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CelestialGlory;
+			productName = WebViewTutorial;
+			productReference = 1D6058910D05DD3D006BFB54 /* CelestialGlory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "CheekDotCom Software";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CelestialGlory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CelestialGlory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2EB11C16122D2D000E3699 /* Icon@2x.png in Resources */,
+				7C2EB122161231B2000E3699 /* Default-568h@2x.png in Resources */,
+				7C03CADE1649CC9900FE7424 /* CDCStoryboard.storyboard in Resources */,
+				7C03CAE3164AE6C600FE7424 /* Icon.png in Resources */,
+				7C03CAE4164AE6C600FE7424 /* celestial_glory_72.png in Resources */,
+				7C03CAE6164AE79200FE7424 /* celestial_glory_144.png in Resources */,
+				7C03CAE8164AE8F400FE7424 /* celestial_glory_57.png in Resources */,
+				7C03CAEA164B29D400FE7424 /* Default-Portrait~ipad.png in Resources */,
+				7C03CAEB164B2A0B00FE7424 /* Default.png in Resources */,
+				7C03CAEC164B2A0F00FE7424 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CDCAppDelegate.m in Sources */,
+				7C423BF012EE5FC600EBC96D /* MKStoreManager.m in Sources */,
+				7C423BF112EE5FC600EBC96D /* MKStoreObserver.m in Sources */,
+				7C03CA3C1648420400FE7424 /* CDCWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CelestialGlory_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = CelestialGlory;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CelestialGlory_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = CelestialGlory;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C423CF412EE924400EBC96D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7C423CF512EE924400EBC96D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CelestialGlory_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = CelestialGlory;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CelestialGlory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				7C423CF512EE924400EBC96D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CelestialGlory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				7C423CF412EE924400EBC96D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
