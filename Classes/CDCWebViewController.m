@@ -34,7 +34,12 @@
     }
 #endif
     
-    NSString *urlCore = @"http://codero1.cheek.com/celestial_glory/bounce/";
+#ifdef DEBUG
+    NSString *urlCore = @"http://cg.dev.game.ziquid.com/celestial_glory/bounce/";
+#else
+    NSString *urlCore = @"http://cg.game.ziquid.com/celestial_glory/bounce/";
+#endif
+    
 	NSString *urlAddress = [urlCore stringByAppendingString:self.uniqueIdentifier];
 	
     NSString *normalAgent = [[[UIWebView alloc] init] stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
@@ -54,7 +59,7 @@
         [defaults setValue:authKey forKey:@"authKey"];
     }
     
-    NSString* secretAgent = [NSString stringWithFormat:@"%@ (com.cheek.celestialglory; %@; authKey=%@)",
+    NSString* secretAgent = [NSString stringWithFormat:@"%@ (com.ziquid.celestialglory; %@; authKey=%@)",
                              normalAgent, versionStr, authKey];
     
     NSDictionary *dictionary = [[NSDictionary alloc] initWithObjectsAndKeys:secretAgent, @"UserAgent", nil];
@@ -132,16 +137,22 @@
     
 	if (navigationType == UIWebViewNavigationTypeLinkClicked) {
 		
-		if ([urlString isEqualToString:@"http://codero1.cheek.com/"] ||
-            [urlString isEqualToString:@"http://forum.cheek.com/"]) {
+		if ([urlString isEqualToString:@"http://cg.game.ziquid.com/"] ||
+            [urlString isEqualToString:@"http://forum.ziquid.com/"] ||
+            [urlString isEqualToString:@"http://cg.dev.game.ziquid.com/"] ||
+            [urlString isEqualToString:@"http://forum.dev.ziquid.com/"]) {
 			
 			NSLog(@"Holy cow, Batman!  We're going home!");
 			
 			// get our unique iPhone ID
 			UIDevice *device = [UIDevice currentDevice];
 			uniqueIdentifier = [[device identifierForVendor] UUIDString];
-			
-			NSString *urlCore = @"http://codero1.cheek.com/celestial_glory/home/";
+
+#ifdef DEBUG
+			NSString *urlCore = @"http://cg.dev.game.ziquid.com/celestial_glory/home/";
+#else
+			NSString *urlCore = @"http://cg.game.ziquid.com/celestial_glory/home/";
+#endif
 			NSString *urlAddress = [urlCore stringByAppendingString:uniqueIdentifier];
 			
 			//Create a URL object.

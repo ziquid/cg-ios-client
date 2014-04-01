@@ -36,7 +36,11 @@
 @synthesize purchasableObjects = _purchasableObjects;
 @synthesize storeObserver = _storeObserver;
 
-static NSString *ownServer = @"http://codero1.cheek.com/celestial_glory/elders_do_purchase";
+#ifdef DEBUG
+static NSString *ownServer = @"http://cg.dev.game.ziquid.com/celestial_glory/elders_do_purchase";
+#else
+static NSString *ownServer = @"http://cg.game.ziquid.com/celestial_glory/elders_do_purchase";
+#endif
 
 static id<MKStoreKitDelegate> _delegate;
 static MKStoreManager* _sharedStoreManager;
@@ -437,10 +441,10 @@ static MKStoreManager* _sharedStoreManager;
                                                           timeoutInterval:60];
 	
 	// NSString *userAgent = [theRequest valueForHTTPHeaderField:@"User_Agent"];
-	// userAgent = [userAgent stringByAppendingString:@" (com.cheek.stlouis/iPhone)"];
+	// userAgent = [userAgent stringByAppendingString:@" (com.ziquid.celestialglory/iPhone)"];
 	// NSLog(@"User-Agent: %@", userAgent);
 	
-	[theRequest setValue:@" (com.cheek.celestialglory/iPhone)" forHTTPHeaderField:@"User-Agent"];
+	[theRequest setValue:@" (com.ziquid.celestialglory/iPhone)" forHTTPHeaderField:@"User-Agent"];
     
     [theRequest setHTTPMethod:@"POST"];
     [theRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
