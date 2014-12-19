@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD115CD9-A8CE-4ACF-A4F7-73F975B6880D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CelestialGlory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC91DC5743753AC539993EDCEFBCC05738363D9C</key>
+		<string>ziquid.beanstalkapp.com:/ziquid/cg-ios-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CelestialGlory.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC91DC5743753AC539993EDCEFBCC05738363D9C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ziquid.beanstalkapp.com:/ziquid/cg-ios-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC91DC5743753AC539993EDCEFBCC05738363D9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC91DC5743753AC539993EDCEFBCC05738363D9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cg-ios-client</string>
+		</dict>
+	</array>
+</dict>
+</plist>

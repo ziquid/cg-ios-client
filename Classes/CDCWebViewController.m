@@ -180,7 +180,7 @@
     CFStringRef string = CFUUIDCreateString(NULL, theUUID);
     CFRelease(theUUID);
     
-    result =[NSString stringWithFormat:@"%@", string];
+    result = [NSString stringWithFormat:@"%@", string];
     assert(result != nil);
     
     NSLog(@"%@",result);
